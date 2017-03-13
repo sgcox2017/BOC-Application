@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>About</h1>
+
+
+<h2>About us</h2>
+
+<p1>Team SCRAM is a software development group who made this trivia game as a final project for students in Software Development. The team worked along with professor Jeff Beer to create a trivia game that would allow Manchester Students who are Physical Science courses to study for the (insert exam name here).</p1>
+
+<h2>About the categories</h2>
+<p2>Here we will provide a brief description of each category</p2>
+
+<h3>Injury/Illness Prevention and Wellness Protection</h3>
+<p3>This category deals with questions that focus on specific injuries of the body as well as illness’s that the body may have or deal with.  Wellness protection focuses on nutrition, fitness, etc</p3>
+
+<h3>Clinical Evaluation and Diagnosis</h3>
+<p3>This category focuses on orthopedic evaluations of the body and how to diagnose medical issues</p3>
+
+<h3>Immediate and Emergency Care</h3>
+<p3>This category focuses on how to deal with emergency injuries and illness.</p3>
+
+<h3>Treatment and Rehabilitation</h3>
+<p3>This category focuses on how to treat illness and injury orthopedically. Focus on rehabilitation as well such as what you would do in physical therapy</p3>
+
+<h3>Organizational and Professional Health and Well-being</h3>
+<p3>This category deals with administration issues in our field, I.E. issues with legal liability, negligence, insurance, etc.</p3>
+
+</body>
+</html>
