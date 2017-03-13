@@ -9,23 +9,18 @@ This div should be set to True
 -->
 <div>
 
-<h3> Username:  <input type="text" name="Username" value=""> </input></h3>
+<h3> Username:  <input type="text" name="Username" value="" placeholder="Username"> </input></h3>
 
-<h3> Password: <input type="text" name="Password" value=""></h3>
+<h3> Password: <input type="text" name="Password" value="" placeholder="Password"></h3>
 
-<h3>  <button>Login</button></h3>
+<h3>  <button>Login</button>
 
-
+<!--
 For the create account and password recovery do bring up a new overlay for each and hide the login and password 
 also need
+-->
 
-username 
-password
-email
-security question
-
-
-<h3><button>Create an Account</button>
+<button>Create an Account</button>
 <button>Forgot Password</button></h3>
 
 </div>
@@ -33,27 +28,36 @@ security question
 <!--
 This div should be set to False
 -->
-<div>
+<div id="visibilityCreateAccount" style="visibility: hidden">
 
-<h3> Username:  <input type="text" name="Username" value=""> </input></h3>
+<h3> Username:  <input type="text" name="Username" value="" placeholder="Username"> </input></h3>
 
-<h3> Password: <input type="text" name="Password" value=""></h3>
+<h3> Password: <input type="text" name="Password" value="" placeholder="Password"></h3>
 
-<h3> Email: <input type="text" name ="Email" value=""></h3>
+<h3> Email: <input type="text" name ="Email" value="" placeholder="Email"></h3>
 
 <h3> Security Question </h3>
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">What town born in</a>
-    <a href="#">Faviorite pet</a>
-    <a href="#">MAdien name mom</a>
-	<a href="#">Favorit movie as a child</a>
-  </div>
-</div>
-<input type="text" name ="Email" value="">
-<h3>  <button>Login</button></h3>
 
+<select>
+  <option value=""> </option>
+  <option value=""> What town were you born in?</option>
+  <option value=""> What high school did you attend?</option>
+  <option value=""> Favorite childhood movie?</option>
+  <option value=""> In what town was your first job?</option>
+</select>
+  
+  
+<input type="text" name ="Security Question" value="" placeholder="Security Question">
+<h3><button>Create Account</button></h3>
+
+</div>
+
+
+
+<!--
+This div should be set to False
+-->
+<div id="visibilityForgotPassword" style="visibility: hidden">
 
 </div>
 
