@@ -1,0 +1,48 @@
+body {
+    background:  url(http://www.gonintendo.com/system/stories/promo_images/000/266/563/original/102a42f8e93e7eb296f03798b6cf5a24e8170a7b_hq.gif?1476128743) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+#DisplayName {
+    color: magenta;
+    text-align: right;
+	font-weight: normal;
+	font-size: medium;
+	margin: 0 auto;
+}
+
+#Display{
+	resize: none;
+	overflow: hidden;
+	border: none;
+	background: white;
+	width: auto;
+	height: 1em;
+}
+
+.button {
+	font-weight: bold;
+	text-align: center;
+	font-size: auto;
+	height: 2em;
+}
+
+.table {
+	text-align: center;
+	margin: 0 auto;
+	width: 90%;
+	height:90%;
+}
+
+.Tbutton {
+	width: 45%;
+	height: auto;
+	font-size: 4em;
+}
+
+.text {
+	bottom: 0; 
+	text-align: center;
+	background-color: white;
+	background-clip: content;
+}

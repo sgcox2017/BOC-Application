@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <script type="text/javascript" src="../JavaScript/login.js"></script>
+        <link rel="stylesheet" type="text/css" href="../CSS/login.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/boc.css">
+    </head>    
+    <body>
+        <header class="header-basic-light">
+            <div class="header-limiter">
+                <h1><a href="index.html">Company<span>logo</span></a></h1>
+                <nav>
+                    <a href="home.html" class="selected">Home</a>
+                    <a href="index.html">How to Play</a>
+                    <a href="index.html">Pricing</a>
+                    <a href="index.html">About</a>
+                    <a href="index.html">Faq</a>
+                    &nbsp; &nbsp; &nbsp;
+                    <a href="index.html"><strong>Logout</strong></a>
+                </nav>
+            </div>
+        </header>
+        <div class="center">
+
+            <h3> Username: <input type="text" name="Username" value="" placeholder="Username"></h3>
+
+            <h3> Password: <input type="text" name="Password" value="" placeholder="Password"></h3>
+
+            <h3>  <button>Login</button>
+
+                <!--
+                For the create account and password recovery do bring up a new overlay for each and hide the login and password 
+                also need
+                -->
+
+                <button onclick="showCreateAccount()">Create an Account</button>
+                <button onclick="showForgotPassword()">Forgot Password</button></h3>
+
+        </div>
+
+        <!--
+        This div should be set to False
+        -->
+        <div id="newAccount" style="visibility: hidden">
+
+            <h3> Username:  <input type="text" name="Username" value="" placeholder="Username"></h3>
+
+            <h3> Password: <input type="text" name="Password" value="" placeholder="Password"></h3>
+
+            <h3> Email: <input type="text" name ="Email" value="" placeholder="Email"></h3>
+
+            <h3> Security Question </h3>
+
+            <select>
+                <option value=""> </option>
+                <option value=""> What town were you born in?</option>
+                <option value=""> What high school did you attend?</option>
+                <option value=""> Favorite childhood movie?</option>
+                <option value=""> In what town was your first job?</option>
+            </select>
+
+
+            <input type="text" name ="Security Question" value="" placeholder="Security Question">
+            <h3><button>Create Account</button></h3>
+
+        </div>
+
+
+
+        <!--
+        This div should be set to False
+        -->
+        <div id="forgotPassword" style="visibility: hidden">
+            <h3> Username:  <input type="text" name="Username" value="" placeholder="Username"></h3>
+        </div>
+
+
+    </body>
+</hmtl> 
