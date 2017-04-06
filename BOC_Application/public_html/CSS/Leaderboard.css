@@ -1,0 +1,57 @@
+body {
+    font: Minion Web;
+	
+}
+
+Title{
+	font-size: 80px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+	text-align: center;
+}
+
+
+
+h1{
+	
+	font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+	
+}
+
+button{
+font-weight: bold;
+	text-align: center;
+	font-size: auto;
+	height: 2em;
+	margin-bottom: 40px;
+	margin-right: 20px;
+	
+}
+<div style="overflow-x:auto;">
+
+table{
+	
+	   border: 1px solid black;
+    
+
+}
+
+tr{
+	   border: 1px solid black;
+        padding: 15px;
+		background-color: #4CAF50;
+
+
+
+
+	
+}
+
+td{
+	   border: 1px solid black;
+        padding: 15px;
+
+
+}
