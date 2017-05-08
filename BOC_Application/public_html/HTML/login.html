@@ -20,7 +20,7 @@
                         <th class="loginCell"><input type="password" id="password" value=""></th>
                     </tr>
                     <tr>
-                        <th colspan="2" class="loginCell"><button>Submit</button></th>
+                        <th colspan="2" class="loginCell"><input id="submitLogin" type="button" value="Submit" /></th>
                     </tr>
                     <tr>
                         <th colspan="2" class="loginCell"><p onclick="showForgotPassword()">Forgot Password?</p> </th>
@@ -68,7 +68,7 @@
                         <th class="loginCell"><input type="text" id="newSecurityAnswer" value=""></th>
                     </tr>
                     <tr>
-                        <th colspan="2" class="loginCell"><button>Submit</button></th>
+                        <th colspan="2" class="loginCell"><input type="button" value="Submit" id="submitNewUser" onclick="validateNewUser()" /></th>
                     </tr>
                     <tr>
                         <th colspan="2" class="loginCell"><p onclick="showLogin()">Existing User?</p> </th>
