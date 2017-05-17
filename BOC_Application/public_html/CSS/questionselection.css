@@ -1,0 +1,84 @@
+#questionDisplay {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#questionHolder {
+    font-size: 35px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    line-height: 50px;
+    padding: 10px;
+}
+
+#categoryHolder {
+    font-size: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    line-height: 50px;
+    padding: 10px;
+}
+
+#timerHolder {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 5%;
+    height: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 15px;
+}
+
+#answerHolder {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#response {
+    font-size: 25px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    line-height: 25px;
+    padding: 10px;
+}
+
+#returnHolder {
+    font-size: 20px;
+    background-color: white;
+    margin: auto;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.returnItem {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.option {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    line-height: 50px;
+    padding: 10px;
+}
+
+.optionRow {
+    width: 50%;
+}

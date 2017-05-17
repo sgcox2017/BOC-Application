@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Question Selection</title>
+        <script type="text/javascript" src="../JavaScript/questionselection.js"></script>
+        <link rel="stylesheet" type="text/css" href="../CSS/boc.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/questionselection.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
-        <div id = "questionDisplay"> BOC Trivia
-        
-            <h3 id = "Questn"> This is where the question will be placed</h3>
-            
-            
-            <table id =" answers" style="width:100%">
-                <tr> 
-                    <td> Answer 1 </td> 
-                    <td> <input type="radio" name="" value="" />
+    <body onload="getQuestion()">
+        <div id="questionDisplay" class="center">
+            <p id="categoryHolder">Category</p>
+            <p id="questionHolder">This is where the question will go.</p>
+            <p id="imageHolder" style="display:none">This is where an image will go.</p>
+
+            <table align="center" id ="answerHolder">
+                <tr class="optionRow"> 
+                    <td> <input type="submit" id="holderTL" class="option" onclick="guessQuestion('holderTL')" value="Top Left" />
+                    <td> <input type="submit" id="holderTR" class="option" onclick="guessQuestion('holderTR')" value="Top Right" />
                 </tr>
-                <tr> 
-                    <td> Answer 2 </td> 
-                    <td> <input type="radio" name="" value="" />
+                <tr class="optionRow"> 
+                    <td> <input type="submit" id="holderBL" class="option" onclick="guessQuestion('holderBL')" value="Bottom Left" />
+                    <td> <input type="submit" id="holderBR" class="option" onclick="guessQuestion('holderBR')" value="Bottom Right" />
                 </tr>
-                <tr> 
-                    <td> Answer 3 </td> 
-                    <td> <input type="radio" name="" value="" />
-                </tr>
-                <tr> 
-                    <td> Answer 4 </td> 
-                    <td> <input type="radio" name="" value="" />
-                </tr>
-            </table> 
-            <button id ="Submit"> <input type="submit" value="Submit" />
+            </table>
+            <p id="timerHolder">20</p>
+            <p id="response"></p>
+            <div id="returnHolder" class="center" style="display: none;">
+                <a href="categoryselection.html"><p class="returnItem">Select a Category</p></a>
+                <a href="home.html"><p class="returnItem">Return Home</p></a>
+            </div>
         </div>
     </body>
 </html>

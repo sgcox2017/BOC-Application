@@ -1,44 +1,29 @@
+//List of possible categories
+var categoryList = ["prevention", "evaluation", "care", "rehab", "health", "other"];
 
-char buttonone =0;
-char buttontwo = 0;
-char buttonthree = 0;
-char buttonfour = 0;
-char buttonfive = 0; 
-char buttonsix = 0;
+//Minimum and maximum lengths for the category list
+var min = 0;
+var max = categoryList.length - 1;
 
-
-function pressOne(){
-	
-	buttonone=1;
-	
+//Sets the category selected into the local storage. If random is chosen, a category is randomly selcted from the list
+function selectCategory(categoryId) {
+    if(categoryId === "random") {
+        var randomInt = getRandomInt()
+        localStorage.setItem("category", categoryList[randomInt]);
+        localStorage.setItem("categoryName", document.getElementById(categoryId).value);
+        location.replace("questionselection.html");
+    }
+    else {
+        localStorage.setItem("category", categoryId);
+        localStorage.setItem("categoryName", document.getElementById(categoryId).value);
+        location.replace("questionselection.html");
+    }
 }
 
-function pressTwo(){
-	
-	buttontwo = 1;
-	
-}
-
-function pressThree(){
-	
-	buttonthree = 1;
-	
-}
-
-function pressFour(){
-	
-	buttonfour =1;
-	
-}
-
-function pressFive(){
-	
-	buttonfive = 1;
-	
-}
-
-function pressSix(){
-	
-	buttonsix = 1;
-	
+//Retrieves a random integer between the min and max variables
+function getRandomInt() {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    
+    return Math.floor(Math.random() * (max - min)) + min;
 }

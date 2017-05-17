@@ -1,15 +1,17 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-        <title>BOC Home Page</title>
+        <title>Home</title>
+        <script type="text/javascript" src="../JavaScript/home.js"></script>
         <link rel="stylesheet" type="text/css" href="../CSS/home.css">
         <link rel="stylesheet" type="text/css" href="../CSS/boc.css">
     </head>
-    <body>
-        <p id="DisplayName"><textarea readonly rows=1 id="Display">Display User Name</textarea><button id="LogOutButt" class="button">Log Out</button></p>
+    <body onload="welcome()">
+        <p class="center" id="welcomeText"></p>
         <table id="buttons" class="table">
             <tr>
-                <th><a href="play.html"><button id="PlayButt" class="button Tbutton">Play</button></a></th>
+                <th><a href="categoryselection.html"><button id="PlayButt" class="button Tbutton">Play</button></a></th>
             </tr>
             <tr>
                 <th><a href="howtoplay.html"><button id="H2PButt" class="button Tbutton">How To Play</button></a></th>
@@ -18,12 +20,13 @@
                 <th><a href="about.html"><button id="AboutButt" class="button Tbutton">About</button></a></th>
             </tr>
             <tr>
-                <th><a href="stats.html"><button id="StatsButt" class="button Tbutton">Player Stats</button></a></th>
+                <th><a href="personalstats.html"><button id="StatsButt" class="button Tbutton">Player Stats</button></a></th>
             </tr>
             <tr>
-                <th><a href="leaderboard.html"><button id="LeaderBoardButt" class="button Tbutton">Leader Board</button></a></th>
+                <th><a href="leaderboard.html"><button id="LeaderBoardButt" class="button Tbutton">Leaderboard</button></a></th>
             </tr>
         </table>
-        <p id="Questions" class="text">Want to submit questions? Email hia@gmail.net your questions!</p>
+        <p id="Questions" class="text">Want to submit questions? Email your questions to Jeff Beer at jabeer@manchester.edu!</p>
     </body>
+
 </html>

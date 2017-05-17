@@ -1,56 +1,32 @@
-body {
-    font: Minion Web;
-	
+#leaderTable {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color:  black;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: left;
 }
 
-Title{
-	font-size: 80px;
-    margin-top: 10%;
-    margin-bottom: 20px;
-	text-align: center;
+#title {
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
 }
 
-
-
-h1{
-	
-	font-size: 75px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-	
-}
-
-button{
-font-weight: bold;
-	text-align: center;
-	font-size: auto;
-	height: 2em;
-	margin-bottom: 40px;
-	margin-right: 20px;
-	
-}
-
-table{
-	
-	   border: 1px solid black;
-    
-
-}
-
-tr{
-	   border: 1px solid black;
-        padding: 15px;
-		background-color: #4CAF50;
-
-
-
-
-	
-}
-
-td{
-	   border: 1px solid black;
-        padding: 15px;
-
-
+#returnHome {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }

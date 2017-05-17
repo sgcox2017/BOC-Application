@@ -1,0 +1,41 @@
+.title {
+   font-size: 35px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.category{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.content{
+    font-size: 20px;
+    color:  black;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categoryHolder {
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#returnHome {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}

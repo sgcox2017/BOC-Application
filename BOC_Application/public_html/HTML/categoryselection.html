@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Category Selection</title>
+        <script type="text/javascript" src="../JavaScript/categoryselection.js"></script>
         <link rel="stylesheet" type="text/css" href="../CSS/boc.css">
         <link rel="stylesheet" type="text/css" href="../CSS/categoryselection.css">
         <meta charset="UTF-8">
@@ -9,15 +10,19 @@
     </head>
     <body>
         <div class="center">
-            <p>Please Select a Category:</p>
+            <p class="title">Please Select a Category:</p>
         </div>
-        <div class ="center"> 
-                <p><input type="button" id="wellness" value="wellness" /></p>
-                <p><input type="button" id="wellness" value="wellness" /></p>
-                <p><input type="button" id="wellness" value="wellness" /></p>
-                <p><input type="button" id="wellness" value="wellness" /></p>
-                <p><input type="button" id="wellness" value="wellness" /></p>
-                <p><input type="button" id="wellness" value="wellness" /></p>
+        <div class ="categoryHolder center"> 
+                <p><input type="button" class="categories" id="prevention" onclick="selectCategory('prevention')" value="Injury/Illness Prevention and Wellness Protection" /></p>
+                <p><input type="button" class="categories" id="evaluation" onclick="selectCategory('evaluation')" value="Clinical Evaluation and Diagnosis" /></p>
+                <p><input type="button" class="categories" id="care" onclick="selectCategory('care')" value="Immediate and Emergency Care" /></p>
+                <p><input type="button" class="categories" id="rehab" onclick="selectCategory('rehab')" value="Treatment and Rehabilitation" /></p>
+                <p><input type="button" class="categories" id="health" onclick="selectCategory('health')" value="Organizational and Professional Health and Well-Being" /></p>
+                <p><input type="button" class="categories" id="other" onclick="selectCategory('other')" value="Other" /></p>
+                <p><input type="button" class="categories random" id="random" onclick="selectCategory('random')" value="Random" /></p>
+        </div>
+        <div class="center">
+             <a href="home.html" ><p id="returnHome">Return to Home</p></a>
         </div>
     </body>
 </html>

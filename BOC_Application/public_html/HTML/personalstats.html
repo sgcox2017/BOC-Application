@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html>
-<title>Personal Statistics</title>
-<h1>Personal Statistics</h1>
-<body>
-//needs to be changed for what we'll actually be searching by
-<select>
-  <option value="Category">Category</option>
-  <option value="Difficulty">Difficulty</option>
-  <option value="All Inputs">All Inputs</option>
-</select>
-// might be other categories we want shown
-<table>
-    <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-		<td>Total Points</td>
-    </tr>
-</table>
-</body>
+     <head>
+        <title>Personal Statistics</title>
+        <script type="text/javascript" src="../JavaScript/personalstats.js"></script>
+        <link rel="stylesheet" type="text/css" href="../CSS/personalstats.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/boc.css">
+    </head>    
+    <body onload="getInfo()">
+        <p id="usernameHolder"></p>
+        <table id="statsTable">
+
+        </table>
+        <a href="home.html"><p id="returnHome">Return Home</p></a>
+    </body>
 </hmtl>

@@ -1,0 +1,30 @@
+#statsTable {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color:  black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+
+#usernameHolder {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#returnHome {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}

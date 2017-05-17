@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../CSS/boc.css">
     </head>    
     <body>
+        <!-- form to login as an existing user -->
         <div id="login" class="center" style="display: block">
             <p class="title">Please Login</p>
             <form class="loginForm">
@@ -20,11 +21,12 @@
                         <th class="loginCell"><input type="password" id="password" value=""></th>
                     </tr>
                     <tr>
-                        <th colspan="2" class="loginCell"><input id="submitLogin" type="button" value="Submit" /></th>
+                        <th colspan="2" class="loginCell"><input id="submitLogin" onclick="validateLogin()" type="button" value="Submit" /></th>
                     </tr>
+                    <!--
                     <tr>
                         <th colspan="2" class="loginCell"><p onclick="showForgotPassword()">Forgot Password?</p> </th>
-                    </tr>
+                    </tr> -->
                     <tr>
                         <th colspan="2" class="loginCell"><p onclick="showCreateAccount()">Sign Up</p> </th>
                     </tr>
@@ -32,6 +34,7 @@
             </form>
         </div>
 
+        <!-- form to create a new user -->
         <div id="newAccount" class="center" style="display: none">
             <p class ="title">Please Create User</p>
             <form class="loginForm">
@@ -60,7 +63,7 @@
                                 <option value="town">What town were you born in?</option>
                                 <option value="highschool">What high school did you attend?</option>
                                 <option value="movie">Favorite childhood movie?</option>
-                                <option value="friend">On what street does your best friend live?</option>
+                                <option value="street">On what street does your best friend live?</option>
                             </select></th>
                     </tr>
                     <tr>
@@ -73,18 +76,14 @@
                     <tr>
                         <th colspan="2" class="loginCell"><p onclick="showLogin()">Existing User?</p> </th>
                     </tr>
-                    <tr>
-                        <th colspan="2" class="loginCell"><p onclick="showForgotPassword()">Forgot Password?</p> </th>
-                    </tr>
+                    <!--<tr>
+                        <th colspan="2" class="loginCell"><p onclick="showForgotPassword()">Forgot Password?</p> </th> 
+                    </tr> -->
                 </table>
             </form>
         </div>
 
-
-
-        <!--
-        This div should be set to False
-        -->
+        <!-- form for user who forgot their password
         <div id="forgotPassword" class="center" style="display: none">
             <p class ="title">Password Reset</p>
             <form class="loginForm">
@@ -104,6 +103,6 @@
                     </tr>
                 </table>
             </form>
-        </div>
+        </div> -->
     </body>
 </html>
